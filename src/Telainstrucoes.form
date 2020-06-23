@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,3,82,0,0,5,-26"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="true"/>
+  </Layout>
+  <SubComponents>
+    <Component class="java.awt.TextArea" name="Areadetexto">
+      <Properties>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Cursor de Texto"/>
+        </Property>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="18" style="1"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="" noResource="true"/>
+        <Property name="text" type="java.lang.String" value="                                                      Instru&#xe7;&#xf5;es&#xa;&#xa;O jogo SHIP ROYALE &#xe9; uma adapta&#xe7;&#xe3;o do jogo cl&#xe1;ssico que inclui novas regras e mais&#xa;estrat&#xe9;gia. Este jogo &#xe9; jogado por 2 jogadores, cada um por si, com apenas um &#xfa;nico&#xa;tabuleiro.&#xa;&#x2022;&#x9;Jogadores - 2&#xa;&#x2022;&#x9;Tabuleiro   - 1 tabuleiro 10x10 (10 linhas e 10 colunas )&#xa;&#x2022;&#x9;Barcos:&#xa;&#xa;o&#x9;5 Submarinos;&#xa;o&#x9;4 Destroyers;&#xa;o&#x9;3 Cruzadores;&#xa;o&#x9;2 Navios;&#xa;o&#x9;1 Porta-Avi&#xf5;es;&#xa;&#xa;O jogo come&#xe7;a pedindo o nome dos dois jogadores, um nickname podendo conter numeros e letras.&#xa; Logo ap&#xf3;s a escolha de Nicks, &#xe9; apresentado o tabuleiro que, de forma aleat&#xf3;ria, possui&#xa; v&#xe1;rios barcos diferentes.O objetivo principal do jogo &#xe9; acertar com tiros, o m&#xe1;ximo de partes &#xa;de barcos poss&#xed;veis para acumular pontos. Cada jogador possui 1 tiro por turno. O jogo acaba &#xa;quando n&#xe3;o h&#xe1; mais lugar no tabuleiro para dar tiros ou quando os jogadores desejarem&#xa; sair. A contabiliza&#xe7;&#xe3;o de pontos &#xe9; feita por quantidade de acertos de tiros em barcos.&#xa; Cada acerto em uma parte de barco &#xe9; somado 1 ponto para o jogador que realizou o tiro.&#xa; &#xc9; utilizado o bot&#xe3;o esquerdo do mouse para realizar os tiros. No final do jogo &#xe9; apresentado&#xa;o placar final dos jogadores e qual dos jogadores foi o campe&#xe3;o.&#xa;Divirta-se jogando o SHIP ROYALE!!!"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="430" y="30" width="900" height="630"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="button_voltarparaomenu">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Voltar para o menu"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_voltarparaomenuActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="60" y="600" width="220" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/instrucoes.jpg"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="-160" y="0" width="2340" height="1490"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="-40" y="0" width="1540" height="750"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+    </Container>
+  </SubComponents>
+</Form>
